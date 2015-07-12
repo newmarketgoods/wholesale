@@ -1,5 +1,5 @@
 .product-thumb {
-	width: 80px;
+	width: 60px;
 }
 
 .product-section {
@@ -8,4 +8,5 @@
 }
 .product-section h5 {
 	font-weight: 600;
+	margin-left: -16px;
 }
