@@ -1,0 +1,11 @@
+.product-thumb {
+	width: 80px;
+}
+
+.product-section {
+	border-top: 3px solid black;
+	margin-top: 2em;
+}
+.product-section h3 {
+	font-weight: 600;
+}
