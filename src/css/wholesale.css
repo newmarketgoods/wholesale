@@ -12,8 +12,8 @@
 
 .header-svg {
 	background-repeat: repeat-x;
-    background-image: url(./src/img/background.svg);
-    background-size: 20px 20px;
+    background-image: url("./src/img/background.svg");
+    width: 20px;
 }
 
 .product-thumb {
