@@ -37,22 +37,54 @@
 
 	<div class="container">
 		<div class="row">
-			<!-- <h2 class="text-uppercase">New Market Goods</h2> -->
-			<h1>Wholesale Request Form</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel urna vel nibh hendrerit lacinia non vitae lacus. Aenean vitae elit at elit iaculis viverra. Etiam ornare ornare felis in tempor. Quisque ipsum quam, blandit a lacus quis, finibus dapibus ex. Aliquam nec efficitur elit. Nullam ornare purus non ipsum pretium finibus. Sed non diam massa. Donec vehicula lacinia velit, ac gravida lectus tristique eu. Maecenas pretium justo eu dolor laoreet pulvinar eget nec nunc. Nulla in justo laoreet, mollis arcu at, pulvinar tortor.</p>
+			<!-- <h4 class="text-uppercase">New Market Goods</h4> -->
+			<hr />
+			<img style="width:600px;" class="center-block img-responsive" src="./src/img/NMG_wholesale-request-form.png" alt="Wholesale Request Form"></img>
+			<hr />
+			<div class="col-sm-8">
+				<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel urna vel nibh hendrerit lacinia non vitae lacus.</h4>
+				<p>Aenean vitae elit at elit iaculis viverra. Etiam ornare ornare felis in tempor. Quisque ipsum quam, blandit a lacus quis, finibus dapibus ex. Aliquam nec efficitur elit. Nullam ornare purus non ipsum pretium finibus. Sed non diam massa. Donec vehicula lacinia velit, ac gravida lectus tristique eu. Maecenas pretium justo eu dolor laoreet pulvinar eget nec nunc. Nulla in justo laoreet, mollis arcu at, pulvinar tortor.</p>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="panel panel-info">
+					<!-- <div class="panel-heading">
+						<h3 class="panel-title">Not ready to place an order request?</h3>
+  					</div> -->
+					<div class="panel-body">
+						<h4>Not ready to place an order request?</h4>
+						<p>Simply send us your contact info, and we'll follow up at a later time!</p>
+						<form action="submit/" method="post">
+							<div class="form-group">
+								<label for="exampleInputName1">Name</label>
+								<input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputCompany1">Address</label>
+								<input type="text" class="form-control" id="exampleInputCompany1" placeholder="Company">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Email</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+							</div>
+							<button type="submit" class="btn btn-primary">Submit</button>						
+						</form>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<form action="submit/" method="post" class="form-inline">
 
-		<div class="row">		
+		<div class="row">
 			<h3 class="text-uppercase">Men's Goods</h3>
 		</div>
 		<!-- POPOVER -->
 		<div class="row product-section">
-			<div class="col-sm-2">
-				<h2>Popover</h2>
+			<div class="col-md-1">
+				<h4>Popover</h4>
 			</div>		
-			<div class="col-sm-10">
+			<div class="col-md-11">
 				<div class="table-responsive">
 					<table class="table table-hover">
 						<thead>
@@ -65,6 +97,7 @@
 								<th>Wholesale</th>
 								<th>RRP</th>
 								<th>Quantity</th>
+								<th>Notes</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -84,6 +117,14 @@
 									  </div>
 									</form>
 								</td>
+								<td>
+									<form class="form-inline">
+									  <div class="form-group">
+									    <label for="DHAPOPnts"></label>
+									    <input type="text" class="form-control input-sm" id="DHAPOPnts" placeholder="Notes">
+									  </div>
+									</form>
+								</td>								
 							</tr>
 							<tr>
 								<td><img src="./src/img/KOTPOP.jpg" class="product-thumb" alt="" title=""></td>
@@ -98,6 +139,14 @@
 								    <label for="KOTPOPqty"></label>
 								    <input type="number" class="form-control input-sm" id="KOTPOPqty" placeholder="#">
 								  </div>
+								</td>
+								<td>
+									<form class="form-inline">
+									  <div class="form-group">
+									    <label for="KOTPOPnts"></label>
+									    <input type="text" class="form-control input-sm" id="KOTPOPnts" placeholder="Notes">
+									  </div>
+									</form>
 								</td>
 							</tr>
 							<tr>
@@ -114,6 +163,14 @@
 								    <input type="number" class="form-control input-sm" id="MIRPOPqty" placeholder="#">
 								  </div>
 								</td>
+								<td>
+									<form class="form-inline">
+									  <div class="form-group">
+									    <label for="MIRPOPnts"></label>
+									    <input type="text" class="form-control input-sm" id="MIRPOPnts" placeholder="Notes">
+									  </div>
+									</form>
+								</td>
 							</tr>
 							<tr>
 								<td><img src="./src/img/SADPOP.jpg" class="product-thumb" alt="" title=""></td>
@@ -129,6 +186,14 @@
 								    <input type="number" class="form-control input-sm" id="SADPOPqty" placeholder="#">
 								  </div>
 								</td>
+								<td>
+									<form class="form-inline">
+									  <div class="form-group">
+									    <label for="SADPOPnts"></label>
+									    <input type="text" class="form-control input-sm" id="SADPOPnts" placeholder="Notes">
+									  </div>
+									</form>
+								</td>
 							</tr>							
 						</tbody>
 					</table>
@@ -138,10 +203,10 @@
 
 		<!-- BUTTON-DOWN -->
 		<div class="row product-section">
-			<div class="col-sm-2">
-				<h2>Button-down shirt</h2>
+			<div class="col-md-1">
+				<h4>Button-down shirt</h4>
 			</div>
-			<div class="col-sm-10">
+			<div class="col-md-11">
 				<div class="table-responsive">
 					<table class="table table-hover">
 						<thead>
@@ -195,10 +260,10 @@
 
 		<!-- HANTEN JACKET -->
 		<div class="row product-section">
-			<div class="col-sm-2">
-				<h2>Hanten Jacket</h2>
+			<div class="col-md-1">
+				<h4>Hanten Jacket</h4>
 			</div>		
-			<div class="col-sm-10">
+			<div class="col-md-11">
 				<div class="table-responsive">
 					<table class="table table-hover">
 						<thead>
@@ -266,10 +331,10 @@
 		</div>
 
 		<div class="row product-section">
-			<div class="col-sm-2">
-				<h2>Buyer info</h2>
+			<div class="col-md-1">
+				<h4>Buyer info</h4>
 			</div>		
-			<div class="col-sm-10">
+			<div class="col-md-11">
 				<hr />
 				<div class="form-group">
 					<label for="exampleInputName1">Name</label>
