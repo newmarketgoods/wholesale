@@ -1,5 +1,5 @@
 body {
-    background-image: url("./src/img/background.svg"), none;
+    background-image: url(./src/img/background.svg), none;
 	/*background: url("./src/img/background.svg");*/
     background-repeat: repeat-x;
     background-size:20px 20px;
