@@ -6,7 +6,7 @@ body {
 }
 
 .logo {
-	background: url(./src/img/background.svg) no-repeat top left;
+	background: url(./src/img/background.svg) repeat-x top left;
 	background-size: contain;
 }
 
