@@ -37,25 +37,55 @@ body, html {
 
 #left, #right {
 	border-top: 10px solid #ffc600;
-	padding: 2em 0 4em;
+	padding: 0 0 4em;
 }
 
 #left {
 	/*height:100%;*/
+	background-color: #f1f1f1;
 }
 
 #right {
 	/*height:100%;*/
-	background-color: #f1f1f1;
+	background-color: #e9e9e9;
+}
+
+.primary-header {
+  background: #358df2;
+  color: white;
+  padding-top: 2em;
+}
+
+#intro-linesheet h1, #intro-wholesale h1 {
+	font-size: 4em;
+	font-weight: 600;
+	margin-top: 0px;
+}
+#intro-linesheet h5, #intro-wholesale h5 {
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+td > img {
+	width: 80px;
 }
 
 thead, #info-thead {
 	border-top: 4px solid black;
 	padding-top: .5em;
+	margin-top: .875em;
 }
-
-.product-thumb {
-	width: 60px;
+.section-title h2 {
+	font-size: 3em;
+	font-weight: 700;
+	padding: 1em 0 0.5em;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.product-title {
+	font-size: 1.875em;
+	font-weight: 700;
 }
 
 th {
@@ -90,12 +120,9 @@ th {
 	border: none;
 }
 
-.table-title {
-	font-weight: 700;
-}
-.form-sm {
+/*.form-sm {
 	width: 60px;
-}
+}*/
 .input-sm {
 	height: 30px;
 	padding: 5px 10px;
