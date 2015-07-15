@@ -59,6 +59,7 @@ body, html {
 #intro-linesheet h1, #intro-wholesale h1 {
 	font-size: 4em;
 	font-weight: 600;
+	letter-spacing: 1px;
 	margin-top: 0px;
 }
 #intro-linesheet h5, #intro-wholesale h5 {
