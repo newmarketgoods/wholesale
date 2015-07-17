@@ -54,6 +54,7 @@ body, html {
   background: #358df2;
   color: white;
   padding-top: 2em;
+  margin-bottom: 2em;
 }
 
 #intro-linesheet h1, #intro-wholesale h1 {
@@ -69,7 +70,7 @@ body, html {
 }
 
 td > img {
-	width: 160px;
+	width: 80px;
 }
 
 thead, #info-thead {
