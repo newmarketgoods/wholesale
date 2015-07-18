@@ -47,7 +47,7 @@ body, html {
 
 #right {
 	/*height:100%;*/
-	background-color: #e9e9e9;
+	background-color: #fafafa;
 }
 
 .primary-header {
@@ -70,7 +70,7 @@ body, html {
 }
 
 td > img {
-	width: 80px;
+	width: 100px;
 }
 
 thead, #info-thead {
@@ -139,7 +139,7 @@ th {
 	padding: 6px 10px 4px 10px;
 	line-height: 1.42857143;
 	color: #555;
-	background-color: #f9f9f9;
+	background-color: #fff;
 	background-image: none;
 	border: 0px solid #ccc;
 	border-bottom: 2px solid #ccc;
