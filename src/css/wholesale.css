@@ -73,6 +73,11 @@ body, html {
 td > img {
 	width: 150px;
 }
+.table-product td:nth-child(1) {
+	width: 150px;
+}
+
+
 
 thead, #info-thead {
 	border-top: 4px solid black;
