@@ -74,8 +74,10 @@ td > img {
 	width: 150px;
 }
 
-tbody > tr > td:nth-child(1) {
-	width: 150px;
+.product-section {
+	tbody > tr > td:nth-child(1) {
+		width: 150px;
+	}
 }
 
 thead, #info-thead {
