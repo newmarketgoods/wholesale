@@ -44,8 +44,8 @@
 				<div class="row">	
 
 					<div id="intro-wholesale" class="col-xs-12 primary-header">
-						<h5>SF/16</h5>
-						<h1>Product Linesheet</h1>
+						<h5><img class="img-responsive" style="width:14px; display: inline-block;" src="./src/img/NMG_white-transparent_40x40_@2.gif" /> New Market Goods</h5>
+						<h1>SF/16 Linesheet</h1>
 						<!-- <button type="button" class="btn btn-link"><a href="#mens">Men's</a></button>
 						<button type="button" class="btn btn-link"><a href="#womens">Women's</a></button>
 						<button type="button" class="btn btn-link"><a href="#unisex">Unisex</a></button> -->
@@ -183,17 +183,27 @@
 			</div>
 		</div>
 
-<!-- START FORM PANEL -->	
-
+<!-- START FORM PANEL -->
 		<div class="col-sm-4" id="right">
 			<div class="container-fluid">
 				<div class="row">
 
 					<div id="intro-wholesale" class="col-xs-12 primary-header">
 						<h5>Wholesale</h5>
-						<h1>Request Form</h1>
-						<!-- <button type="button" class="btn btn-link"><a href="#items">Items</a></button>
-						<button type="button" class="btn btn-link"><a href="#buyer">Buyer Info</a></button> -->
+						<h1>Ordering</h1>
+					</div>
+
+					<div id="policies" class="col-xs-12">
+						<h4 class="product-title section-title">Process</h4>
+						<p>Please review our policies below and use the linked form to place an initial purchase order request. We'll follow-up to confirm details.</p>
+						<div class="row">
+							<div class="col-md-4">
+								<button type="button" class="btn btn-primary"><a href="#">Order Form</a></button>
+							</div>
+							<div class="col-md-8">
+								<p>If you have any questions, please contact <a href="mailto:stephen@newmarketgoods.com">stephen@newmarketgoods.com</a></p>
+							</div>
+						</div>
 					</div>
 
 					<div id="policies" class="col-xs-12">
@@ -209,7 +219,7 @@
 								<tbody>
 									<tr>
 										<td><strong>Order Minimum</strong></td>
-										<td>Opening order minimum is $500. Reorder minimum is $200.</td>
+										<td>Opening order minimum is $300. Reorder minimum is $150.</td>
 									</tr>
 									<tr>
 										<td><strong>Payment Terms</strong></td>
@@ -220,6 +230,10 @@
 										<td>We can accept payments via PayPal invoice, credit card, or check.</td>
 									</tr>
 									<tr>
+										<td><strong>Shipping</strong></td>
+										<td>We can provide shipping estimates based on the quantity and contents of your order request, as well as the ship-to location. We generally ship using FedEx.</td>
+									</tr>
+									<tr>
 										<td><strong>Return</strong></td>
 										<td>We accept returns for defective or damaged items within 15 days of receipt of goods.</td>
 									</tr>
@@ -227,305 +241,21 @@
 										<td><strong>Cancellation</strong></td>
 										<td>Orders cannot be cancelled once production has been initiated.</td>
 									</tr>
-									<tr>
+									<!-- <tr>
 										<td><strong>Discounting</strong></td>
 										<td>Suggested discounting 20% after 5 weeks, and 50% after 7 weeks.</td>
-									</tr>
+									</tr> -->
 								</tbody>
 							</table>
 						</div>
 					</div>
 
-					<!-- START ITEMS FORM -->					
-					<form id="callus" target="_self" onsubmit="">
-					<!-- ORDER LINE ITEMS -->
-						<div  id="items" class="col-xs-12">
-							<h4 class="product-title">Items</h4>
-							<div class="table-responsive order-table">
-								<table class="table table-hover">
-									<thead>
-										<tr>
-											<th>SKU</th>
-											<th>Qty</th>
-											<th>Notes</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>
-												<div class="form-group">
-													<label for="sku1"></label>
-													<input type="text" class="form-control input-sm" id="sku1" name="sku1" placeholder="DHAPOP">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="qty1"></label>
-													<input type="number" class="form-control input-sm form-sm" id="qty1" name="qty1" placeholder="#">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="nts1"></label>
-													<input type="text" class="form-control input-sm" id="notes1" name="notes1" placeholder="Specific requests">
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="form-group">
-													<label for="sku2"></label>
-													<input type="text" class="form-control input-sm" id="sku2" name="sku2" placeholder="DHAPOP">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="qty2"></label>
-													<input type="number" class="form-control input-sm form-sm" id="qty2" name="qty2" placeholder="#">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="nts2"></label>
-													<input type="text" class="form-control input-sm" id="notes2" name="notes2" placeholder="Specific requests">
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="form-group">
-													<label for="sku3"></label>
-													<input type="text" class="form-control input-sm" id="sku3" name="sku3" placeholder="DHAPOP">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="qty3"></label>
-													<input type="number" class="form-control input-sm form-sm" id="qty3" name="qty3" placeholder="#">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="nts3"></label>
-													<input type="text" class="form-control input-sm" id="notes3" name="notes3" placeholder="Specific requests">
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="form-group">
-													<label for="sku4"></label>
-													<input type="text" class="form-control input-sm" id="sku4" name="sku4" placeholder="DHAPOP">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="qty4"></label>
-													<input type="number" class="form-control input-sm form-sm" id="qty4" name="qty4" placeholder="#">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="nts4"></label>
-													<input type="text" class="form-control input-sm" id="notes4" name="notes4" placeholder="Specific requests">
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="form-group">
-													<label for="sku5"></label>
-													<input type="text" class="form-control input-sm" id="sku5" name="sku5" placeholder="DHAPOP">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="qty5"></label>
-													<input type="number" class="form-control input-sm form-sm" id="qty5" name="qty5" placeholder="#">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="nts5"></label>
-													<input type="text" class="form-control input-sm" id="notes5" name="notes5" placeholder="Specific requests">
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="form-group">
-													<label for="sku6"></label>
-													<input type="text" class="form-control input-sm" id="sku6" name="sku6" placeholder="DHAPOP">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="qty6"></label>
-													<input type="number" class="form-control input-sm form-sm" id="qty6" name="qty6" placeholder="#">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="nts6"></label>
-													<input type="text" class="form-control input-sm" id="notes6" name="notes6" placeholder="Specific requests">
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="form-group">
-													<label for="sku7"></label>
-													<input type="text" class="form-control input-sm" id="sku7" name="sku7" placeholder="DHAPOP">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="qty7"></label>
-													<input type="number" class="form-control input-sm form-sm" id="qty7" name="qty7" placeholder="#">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="nts7"></label>
-													<input type="text" class="form-control input-sm" id="notes7" name="notes7" placeholder="Specific requests">
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="form-group">
-													<label for="sku8"></label>
-													<input type="text" class="form-control input-sm" id="sku8" name="sku8" placeholder="DHAPOP">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="qty8"></label>
-													<input type="number" class="form-control input-sm form-sm" id="qty8" name="qty8" placeholder="#">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="nts8"></label>
-													<input type="text" class="form-control input-sm" id="notes8" name="notes8" placeholder="Specific requests">
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="form-group">
-													<label for="sku9"></label>
-													<input type="text" class="form-control input-sm" id="sku9" name="sku9" placeholder="DHAPOP">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="qty9"></label>
-													<input type="number" class="form-control input-sm form-sm" id="qty9" name="qty9" placeholder="#">
-												</div>
-											</td>
-											<td>
-												<div class="form-group">
-													<label for="nts9"></label>
-													<input type="text" class="form-control input-sm" id="notes1" name="notes9" placeholder="Specific requests">
-												</div>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-						</div>
-					</form>
-					<!-- END ITEMS FORM -->
-					<!-- START CONTACT INFO FORM -->
-					<form id="contact-info-form">
-						<div class="col-xs-12" id="buyer">
-							<h4 class="product-title">Buyer Info</h4>
-							<div class="row">
-								<div class="col-xs-12">
-									<div id="info-thead"></div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="mainInputName1">Name*</label><br />
-										<input type="text" class="form-control" id="mainInputName1" name="name" placeholder="Name">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="mainInputCompany1">Company*</label><br />
-										<input type="text" class="form-control" id="mainInputCompany1" name="company" placeholder="Company">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="mainInputEmail1">Email*</label><br />
-										<input type="email" class="form-control" id="mainInputEmail1" name="email" placeholder="Email">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="mainInputPhone1">Phone*</label><br />
-										<input type="tel" class="form-control" id="mainInputPhone1" name="phone" placeholder="Phone">
-									</div>
-								</div>
-								<div class="col-xs-12">
-									<button id="form-submit-button" class="btn btn-primary btn-block">Submit</button>
-								</div>
-							</div>						
-						</div>
-					</form>
-					<!-- END CONTACT INFO FORM -->
 				</div>
 			</div>
 		</div>
+
 	</div>
 </div>
-
-    <script type="text/javascript">
-
-    $.fn.serializeObject = function()
-    {	
-        var o = {};
-        var a = this.serializeArray();
-        console.log(this);
-        $.each(a, function() {
-        	if (!this.value) return;
-
-            if (o[this.name] !== undefined) {
-                if (!o[this.name].push) {
-                    o[this.name] = [o[this.name]];
-                }
-                o[this.name].push(this.value || '');
-            } else {
-                o[this.name] = this.value || '';
-            }
-        });
-        return o;
-    };
-
-    $('#contact-info-form').submit(function(e) {
-    	var items = JSON.stringify($('#callus').serializeObject());
-    	var contactInfo = JSON.stringify($('#contact-info-form').serializeObject());
-    	if ((items !== "") && (contactInfo !== "")) {
-    	    $.ajax({
-    	        url: "https://docs.google.com/forms/d/1l8V1iOB5Qmb6TjJN8foPR3sbFiU4V5UKTHTxnqLLEJg/formResponse",
-    	        data: {"entry.2081860211" : items, "entry.122626978" : contactInfo},
-    	        type: "POST",
-    	        dataType: "xml",
-    	        complete: function (jqXHR, textStatus){
-                    $('#callus')[0].reset();
-                    $('#contact-info-form')[0].reset();
-                }
-    	    });
-    	}
-    	else {
-    	    //Error message
-    	}
-    	return false;
-    });
-	
-	</script>
 
 </body>
 </html>

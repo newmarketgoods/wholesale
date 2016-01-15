@@ -47,7 +47,7 @@ body, html {
 
 #right {
 	/*height:100%;*/
-	background-color: #fafafa;
+	background-color: #f4f9fe;
 }
 
 .primary-header {
@@ -84,16 +84,21 @@ thead, #info-thead {
 	padding-top: .5em;
 	margin-top: .875em;
 }
-.section-title h2 {
+/*.section-title h2 {
 	font-size: 3em;
 	font-weight: 700;
 	padding: 1em 0 0.5em;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-}
-.product-title {
+}*/
+.product-title, .section-title {
 	font-size: 3em;
 	font-weight: 700;
+}
+
+.section-title {
+	border-bottom: 4px solid black;
+	padding-bottom: .25em;
 }
 
 th {
@@ -183,9 +188,20 @@ td:nth-child(2) > .form-group > input {
 	letter-spacing: 1px;
 	border: 1px solid transparent;
 	border-radius: 0px;
+	color: #fff;
 }
 .btn-primary {
 	color: #ee7802;
 	background-color: #ffc600;
 	border-bottom: 2px solid #ee7802;
+}
+
+.btn-primary a {
+	color: #fff;
+}
+.btn-primary a:hover {
+	text-decoration: none;
+}
+.btn-primary a:visited {
+	color: #fff;
 }
