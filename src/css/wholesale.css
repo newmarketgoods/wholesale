@@ -80,9 +80,9 @@ body, html {
 td > img, td > a > img {
 	width: 200px;
 }
-/*.table-product > tbody > tr > td:nth-child(1) {
-	width: 150px;
-}*/
+.table-product > tbody > tr > td:nth-child(1) {
+	width: 200px;
+}
 
 
 
@@ -117,8 +117,11 @@ th > a, th > a:hover {
 	text-decoration: none 				!important;
 	text-decoration-color: none 	!important;
 	color: inherit;
+}
+th > a:hover {
 	cursor: pointer;
 }
+
 .td-sku, .td-siz, .panel-heading h3 {
 	letter-spacing: 1px;
 	font-weight: 600;
@@ -227,4 +230,46 @@ td:nth-child(2) > .form-group > input {
 }
 .modal-body {
 	padding: 0;
+}
+
+ul.nav-tabs {
+	margin-bottom: 2em;
+}
+.nav-tabs {
+  border-bottom: 4px solid #f4f9fe;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -4px;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+.nav-tabs > li > a:hover {
+  border-color: #f4f9fe;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #358df2;
+  cursor: default;
+  background-color: #fff;
+  border-bottom: 4px solid #358df2;
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+  /*border-bottom-color: transparent;*/
+}
+.nav > li > a {
+	color: #111;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #f4f9fe;
 }
