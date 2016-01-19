@@ -41,7 +41,7 @@
 
 		<div class="col-sm-8" id="left">
 			<div class="container-fluid">
-				<div class="row">	
+				<div class="row">
 
 					<div id="intro-wholesale" class="col-xs-12 primary-header">
 						<h5><img class="img-responsive" style="width:14px; display: inline-block;" src="./src/img/NMG_white-transparent_40x40_@2.gif" /> New Market Goods</h5>
@@ -51,58 +51,107 @@
 						<button type="button" class="btn btn-link"><a href="#unisex">Unisex</a></button> -->
 					</div>
 
-		<!-- KITCHEN -->
+					<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</button>
+
+		<!-- DINING -->
 					<div class="col-xs-12">
-						<h4 class="product-title">Kitchen</h4>
+						<h4 class="product-title">Dining</h4>
+						<!-- <p><strong>Minimum quantity</strong> for these products is 6 units</p> -->
 						<!-- <p><strong>Product description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dapibus condimentum eros, a elementum augue condimentum commodo.</span></p> -->
 						<div class="table-responsive">
 							<table class="table-product table table-hover">
 								<thead>
 									<tr>
 										<th></th>
-										<th>Detail</th>
+										<th>Product</th>
 										<th>Size</th>
-										<th>Wholesale</th>
-										<th>RRP</th>
+										<th><a href="#" data-toggle="tooltip" title="Wholesale Price">WSP</a></th>
+										<th><a href="#" data-toggle="tooltip" title="Recommended Retail Price">RRP</a></th>
+										<th>Min Qty</th>
 										<th>Lead Time</th>
 									</tr>
 								</thead>
 								<tbody>
-									<tr>
-										<td><img src="https://www.trnk-nyc.com/wp-content/uploads/2015/11/Herringbone-Napkins-TRNK-400x400.jpg" alt="" title=""></td>
-										<!-- <td class="td-sku">BANNAP</td> -->
+
+									<tr><!-- BANNAP -->
 										<td>
-											<h4>Bandarban Napkins (Set of 4)</h4>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#BANNAP">
+												<img src="./src/img/dining/BANNAP.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="BANNAP" NAPindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+															<img src="./src/img/dining/BANNAP.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Bandarban Napkins</h4>
+											<p>(Set of 4)</p>
 											<p>SKU: <span class="td-sku">BANNAP</span></p>
 										</td>
 										<td class="td-siz">18" x 18"</td>
-										<td>$19.00</td>
-										<td>$38.00</td>
-										<td>6 Weeks</td>	
+										<td>$16</td>
+										<td>$32</td>
+										<td>6</td>
+										<td>6 Weeks</td>
 									</tr>
-									<tr>
-										<td><img src="https://www.trnk-nyc.com/wp-content/uploads/2015/11/Herringbone-Napkins-TRNK-400x400.jpg" alt="" title=""></td>
-										<!-- <td class="td-sku">BANNAP</td> -->
+
+									<tr><!-- BANPLC -->
 										<td>
-											<h4>Bandarban Placemats (Set of 4)</h4>
-											<p>SKU: <span class="td-sku">BANPLA</span></p>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#BANPLC">
+												<img src="./src/img/dining/BANPLC.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="BANPLC" PLCindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/dining/BANPLC.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Bandarban Placemats</h4>
+											<p>(Set of 4)</p>
+											<p>SKU: <span class="td-sku">BANPLC</span></p>
 										</td>
 										<td class="td-siz">14" x 19"</td>
-										<td>$19.00</td>
-										<td>$38.00</td>
-										<td>6 Weeks</td>	
+										<td>$19</td>
+										<td>$38</td>
+										<td>6</td>
+										<td>6 Weeks</td>
 									</tr>
 									<tr>
-										<td><img src="https://www.trnk-nyc.com/wp-content/uploads/2015/11/Herringbone-Napkins-TRNK-400x400.jpg" alt="" title=""></td>
-										<!-- <td class="td-sku">BANNAP</td> -->
+
+									<tr><!-- BANTAB -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#BANTAB">
+												<img src="./src/img/dining/BANTAB.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="BANTAB" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/dining/BANTAB.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
 										<td>
 											<h4>Bandarban Table Runner</h4>
 											<p>SKU: <span class="td-sku">BANTAB</span></p>
 										</td>
 										<td class="td-siz">14" x 36"</td>
-										<td>$19.00</td>
-										<td>$38.00</td>
-										<td>6 Weeks</td>	
+										<td>$19</td>
+										<td>$38</td>
+										<td>4</td>
+										<td>6 Weeks</td>
 									</tr>
 								</tbody>
 							</table>
@@ -118,68 +167,464 @@
 								<thead>
 									<tr>
 										<th></th>
-										<th>SKU</th>
+										<th>Product</th>
 										<th>Sizes</th>
-										<th>Wholesale</th>
-										<th>RRP</th>
+										<th><a href="#" data-toggle="tooltip" title="Wholesale Price">WSP</a></th>
+										<th><a href="#" data-toggle="tooltip" title="Recommended Retail Price">RRP</a></th>
+										<th>Min Qty</th>
 										<th>Lead Time</th>
 									</tr>
 								</thead>
 								<tbody>
-									<tr>
-										<td><img src="./src/img/Simply-Birch-Pinstripe-Throw-TRNK.jpg" alt="" title=""></td>
-										<!-- <td class="td-sku">BANNAP</td> -->
+
+									<tr><!-- DORCOV -->
 										<td>
-											<h4>Kona Coverlet</h4>
-											<p>SKU: <span class="td-sku">KONCOV</span></p>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#DORCOV">
+												<img src="./src/img/coverlets/DORCOV.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="DORCOV" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/coverlets/DORCOV.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
 										</td>
-										<td class="td-siz">Full<br/>Queen<br/>King</td>
-										<td>$59.00</td>
-										<td>$118.00</td>
-										<td>6 Weeks</td>	
-									</tr>
-									<tr>
-										<td><img src="./src/img/Simply-Birch-Pinstripe-Throw-TRNK.jpg" alt="" title=""></td>
-										<!-- <td class="td-sku">BANNAP</td> -->
-										<td>
-											<h4>Kona Duvet Cover</h4>
-											<p>SKU: <span class="td-sku">KONDUV</span></p>
-										</td>
-										<td class="td-siz">Full<br/>Queen<br/>King</td>
-										<td>$59.00</td>
-										<td>$118.00</td>
-										<td>6 Weeks</td>	
-									</tr>
-									<tr>
-										<td><img src="https://www.trnk-nyc.com/wp-content/uploads/2014/07/Graphic-Striped-Blanket-charcoal-3-TRNK.jpg" alt="" title=""></td>
-										<!-- <td class="td-sku">BANNAP</td> -->
 										<td>
 											<h4>Dora Coverlet</h4>
 											<p>SKU: <span class="td-sku">DORCOV</span></p>
 										</td>
 										<td class="td-siz">Full<br/>Queen<br/>King</td>
-										<td>$59.00</td>
-										<td>$118.00</td>
-										<td>6 Weeks</td>	
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
 									</tr>
-									<tr>
-										<td><img src="https://www.trnk-nyc.com/wp-content/uploads/2014/07/Graphic-Striped-Blanket-charcoal-3-TRNK.jpg" alt="" title=""></td>
-										<!-- <td class="td-sku">BANNAP</td> -->
+
+									<tr><!-- TALCOV -->
 										<td>
-											<h4>Dora Duvet Cover</h4>
-											<p>SKU: <span class="td-sku">DORDUV</span></p>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#TALCOV">
+												<img src="./src/img/coverlets/TALCOV.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="TALCOV" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/coverlets/TALCOV.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Tali Coverlet</h4>
+											<p>SKU: <span class="td-sku">TALCOV</span></p>
 										</td>
 										<td class="td-siz">Full<br/>Queen<br/>King</td>
-										<td>$59.00</td>
-										<td>$118.00</td>
-										<td>6 Weeks</td>	
-									</tr>									
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+									<tr><!-- KLACOV -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#KLACOV">
+												<img src="./src/img/coverlets/KLACOV.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="KLACOV" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/coverlets/KLACOV.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Khala Coverlet</h4>
+											<!-- <p>Wide-set stripes in dark hunter &amp; ochre on an eccru field</p> -->
+											<p>SKU: <span class="td-sku">KLACOV</span></p>
+										</td>
+										<td class="td-siz">Full<br/>Queen<br/>King</td>
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+									<tr><!-- KONCOV -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#KONCOV">
+												<img src="./src/img/coverlets/KONCOV.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="KONCOV" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/coverlets/KONCOV.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Kona Coverlet</h4>
+											<p>SKU: <span class="td-sku">KONCOV</span></p>
+										</td>
+										<td class="td-siz">Full<br/>Queen<br/>King</td>
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+									<tr><!-- AMACOV -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#AMACOV">
+												<img src="./src/img/coverlets/AMACOV.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="AMACOV" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/coverlets/AMACOV.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Amaranth Coverlet</h4>
+											<p>SKU: <span class="td-sku">AMACOV</span></p>
+										</td>
+										<td class="td-siz">Full<br/>Queen<br/>King</td>
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+									<tr><!-- PHBTHR -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#PHBTHR">
+												<img src="./src/img/throws/PHBTHR.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="PHBTHR" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/throws/PHBTHR.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Phula Throw<br/>in Black</h4>
+											<p>SKU: <span class="td-sku">PHBTHR</span></p>
+										</td>
+										<td class="td-siz">!!!</td>
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+									<tr><!-- PHRTHR -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#PHRTHR">
+												<img src="./src/img/throws/PHRTHR.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="PHRTHR" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/throws/PHRTHR.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Phula Throw<br/>in Red</h4>
+											<p>SKU: <span class="td-sku">PHRTHR</span></p>
+										</td>
+										<td class="td-siz">!!!</td>
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+									<tr><!-- BRIPIL -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#BRIPIL">
+												<img src="./src/img/pillows/BRIPIL.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="BRIPIL" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/pillows/BRIPIL.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Bristi Pillowcase</h4>
+											<p>SKU: <span class="td-sku">BRIPIL</span></p>
+										</td>
+										<td class="td-siz">Standard</td>
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+									<tr><!-- RUPPIL -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#RUPPIL">
+												<img src="./src/img/pillows/RUPPIL.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="RUPPIL" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/pillows/RUPPIL.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Rupali Pillowcase</h4>
+											<p>SKU: <span class="td-sku">RUPPIL</span></p>
+										</td>
+										<td class="td-siz">Standard</td>
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+									<tr><!-- TAMPIL -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#TAMPIL">
+												<img src="./src/img/pillows/TAMPIL.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="TAMPIL" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/pillows/TAMPIL.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Tama Pillowcase</h4>
+											<p>SKU: <span class="td-sku">TAMPIL</span></p>
+										</td>
+										<td class="td-siz">Standard</td>
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+									<tr><!-- SANPIL -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#SANPIL">
+												<img src="./src/img/pillows/SANPIL.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="SANPIL" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/pillows/SANPIL.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Sandhyā Pillowcase</h4>
+											<p>SKU: <span class="td-sku">SANPIL</span></p>
+										</td>
+										<td class="td-siz">Standard</td>
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+									<tr><!-- HOUPIL -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#HOUPIL">
+												<img src="./src/img/pillows/HOUPIL.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="HOUPIL" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/pillows/HOUPIL.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>B&amp;W Houndstooth<br/>Throw Pillow</h4>
+											<p>SKU: <span class="td-sku">HOUPIL</span></p>
+										</td>
+										<td class="td-siz">20" x 20"</td>
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+									<tr><!-- KHAPIL -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#KHAPIL">
+												<img src="./src/img/pillows/KHAPIL.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="KHAPIL" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/pillows/KHAPIL.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Khadi Throw Pillow</h4>
+											<p>with Orange Tassels</p>
+											<p>SKU: <span class="td-sku">KHAPIL</span></p>
+										</td>
+										<td class="td-siz">20" x 20"</td>
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+									<tr><!-- YKHPIL -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#YKHPIL">
+												<img src="./src/img/pillows/YKHPIL.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="YKHPIL" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/pillows/YKHPIL.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Ochre Khadi<br/>Throw Pillow</h4>
+											<p>SKU: <span class="td-sku">YKHPIL</span></p>
+										</td>
+										<td class="td-siz">20" x 20"</td>
+										<td>$59</td>
+										<td>$118</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
 								</tbody>
 							</table>
 						</div>
 					</div>
 
-				</div>	
+		<!-- ACCESSORIES -->
+					<div class="col-xs-12">
+						<h4 class="product-title">Accessories</h4>
+						<!-- <p><strong>Product description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dapibus condimentum eros, a elementum augue condimentum commodo.</span></p> -->
+						<div class="table-responsive">
+							<table class="table-product table table-hover">
+								<thead>
+									<tr>
+										<th></th>
+										<th>Product</th>
+										<th>Sizes</th>
+										<th><a href="#" data-toggle="tooltip" title="Wholesale Price">WSP</a></th>
+										<th><a href="#" data-toggle="tooltip" title="Recommended Retail Price">RRP</a></th>
+										<th>Min Qty</th>
+										<th>Lead Time</th>
+									</tr>
+								</thead>
+								<tbody>
+
+									<tr><!-- KOTTIE -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#KOTTIE">
+												<img src="./src/img/accessories/KOTTIE.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="KOTTIE" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/accessories/KOTTIE.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Kotwali Necktie</h4>
+											<p>SKU: <span class="td-sku">KOTTIE</span></p>
+										</td>
+										<td class="td-siz">2.25" width</td>
+										<td>$37.50</td>
+										<td>$75</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+									<tr><!-- IKTTIE -->
+										<td>
+											<a type="button" class="btn btn-modal" data-toggle="modal" data-target="#IKTTIE">
+												<img src="./src/img/accessories/IKTTIE.jpg" alt="" title="" class="img-responsive">
+											</a>
+											<div class="modal fade" id="IKTTIE" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+											  <div class="modal-dialog" role="document">
+											    <div class="modal-content">
+											      <div class="modal-body">
+											        <img src="./src/img/accessories/IKTTIE.jpg" alt="" title="" class="img-responsive" data-dismiss="modal" type="button">
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</td>
+										<td>
+											<h4>Ikat Necktie</h4>
+											<p>SKU: <span class="td-sku">IKTTIE</span></p>
+										</td>
+										<td class="td-siz">2.25" width</td>
+										<td>$37.50</td>
+										<td>$75</td>
+										<td>3</td>
+										<td>6 Weeks</td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+				</div>
 			</div>
 		</div>
 
@@ -219,7 +664,7 @@
 								<tbody>
 									<tr>
 										<td><strong>Order Minimum</strong></td>
-										<td>Opening order minimum is $300. Reorder minimum is $150.</td>
+										<td>See specific products for minimum order quantities.</td>
 									</tr>
 									<tr>
 										<td><strong>Payment Terms</strong></td>
@@ -256,6 +701,21 @@
 
 	</div>
 </div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="./src/js/bootstrap.min.js"></script>
+<script src="./src/js/docs.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="./src/js/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
 
 </body>
 </html>

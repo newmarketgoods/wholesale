@@ -28,9 +28,9 @@ body, html {
 		left: 0;
 		width: 65%;
 		height:100%;
-		overflow-y: scroll; 
+		overflow-y: scroll;
 	}
-	
+
 	#right {
 		position: absolute;
 		top: 0;
@@ -77,12 +77,12 @@ body, html {
 }
 
 
-td > img {
-	width: 150px;
+td > img, td > a > img {
+	width: 200px;
 }
-.table-product > tbody > tr > td:nth-child(1) {
+/*.table-product > tbody > tr > td:nth-child(1) {
 	width: 150px;
-}
+}*/
 
 
 
@@ -113,11 +113,19 @@ th {
 	letter-spacing: 1px;
 	font-size: 10px;
 }
+th > a, th > a:hover {
+	text-decoration: none 				!important;
+	text-decoration-color: none 	!important;
+	color: inherit;
+	cursor: pointer;
+}
 .td-sku, .td-siz, .panel-heading h3 {
-	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 600;
 	/*font-size: 11px;*/
+}
+.td-sku, .panel-heading h3 {
+	text-transform: uppercase;
 }
 
 .panel {
@@ -211,4 +219,12 @@ td:nth-child(2) > .form-group > input {
 }
 .btn-primary a:visited {
 	color: #fff;
+}
+
+.btn-modal {
+	padding: 0 !important;
+	border: 0;
+}
+.modal-body {
+	padding: 0;
 }
