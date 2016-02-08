@@ -18,8 +18,8 @@ body, html {
 @media (min-width: 768px){
 
 	body, html {
-		/*overflow: hidden;
-		height:100%;*/
+		overflow: hidden;
+		height:100%;
 	}
 	#left {
 		position: absolute;
@@ -27,8 +27,8 @@ body, html {
 		bottom: 0;
 		left: 0;
 		width: 65%;
-		/*height:100%;
-		overflow-y: scroll;*/
+		height:100%;
+		overflow-y: scroll;
 	}
 
 	#right {
@@ -37,8 +37,8 @@ body, html {
 		bottom: 0;
 		right: 0;
 		width: 35%;
-		/*height:100%;
-		overflow-y: scroll;*/
+		height:100%;
+		overflow-y: scroll;
 	}
 }
 
