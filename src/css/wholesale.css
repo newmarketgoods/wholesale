@@ -123,6 +123,10 @@ th > a:hover {
 	cursor: pointer;
 }
 
+.td-pro h4 {
+	font-weight: 600;
+    margin-top: 0;
+}
 .td-sku, .td-siz, .panel-heading h3 {
 	letter-spacing: 1px;
 	font-weight: 600;
@@ -130,6 +134,10 @@ th > a:hover {
 }
 .td-sku, .panel-heading h3 {
 	text-transform: uppercase;
+}
+.td-siz-num {
+    font-size: 80%;
+    font-weight: 400;
 }
 
 .panel {
