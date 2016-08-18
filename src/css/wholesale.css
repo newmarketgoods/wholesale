@@ -84,6 +84,9 @@ td > img, td > a > img {
 .table-product > tbody > tr > td:nth-child(1) {
 	width: 200px;
 }
+.table-product > tbody > tr > td:nth-child(1), .table > tbody > tr > th:nth-child(1) {
+	padding-left: 0px;
+}
 
 
 
@@ -115,7 +118,7 @@ th {
 	font-size: 10px;
 }
 th > a, th > a:hover {
-	text-decoration: none 				!important;
+	text-decoration: none 			!important;
 	text-decoration-color: none 	!important;
 	color: inherit;
 }
@@ -191,9 +194,6 @@ th > a:hover {
 .order-table > .table > tbody > tr > td {
 	padding: 2px;
 }
-.table > tbody > tr > td:nth-child(1), .table > tbody > tr > th:nth-child(1) {
-	padding-left: 0px;
-}
 .table > tbody > tr > td:nth-child(3) {
 	padding-right: 0px;
 }
@@ -206,6 +206,7 @@ td:nth-child(2) > .form-group > input {
 	letter-spacing: 1px;
 	width: 60px;
 }
+
 
 /*BUTTON STYLING*/
 .btn {
@@ -281,4 +282,10 @@ ul.nav-tabs {
 .nav > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
     background-color: #f4f9fe;
+}
+
+/*SHOPIFY BUY BUTTON*/
+
+.product-modal-content__description p {
+    padding-bottom: 12px;
 }
