@@ -1,4 +1,11 @@
-@media (max-width: 768px){
+body {
+	padding-bottom: 6em;
+}
+
+@media (max-width: 550px){
+	.nav > li:nth-child(3) {
+		clear: both;
+	}
 }
 
 @media (min-width: 768px){
@@ -11,6 +18,10 @@
 		padding-left: 4em;
 		padding-right: 4em;
 	}
+}
+
+.tab-button {
+	background-color: #ffc600;
 }
 
 .primary-header {
