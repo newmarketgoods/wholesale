@@ -258,16 +258,16 @@ ul.nav-tabs {
 	font-weight: 600;
 }
 .nav > li > a:hover, .nav > li > a:focus {
-    text-decoration: none;
-    background-color: #f4f9fe;
+	text-decoration: none;
+	background-color: #f4f9fe;
 }
 
 /*Modal STYLING*/
 .modal-body > img {
-  position: relative;
-  float: left;
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 50%;	
+	position: relative;
+	float: left;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 50%;
 }
 
