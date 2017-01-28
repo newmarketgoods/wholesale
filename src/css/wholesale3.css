@@ -270,6 +270,9 @@ ul.nav-tabs {
 	width: 70%;
 	clear: both;
 }
-.modal-body > img:after {
+.modal-body > p:after {
 	clear: both;
+}
+.modal-title {
+	letter-spacing: 1px;
 }
