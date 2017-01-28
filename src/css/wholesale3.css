@@ -270,6 +270,6 @@ ul.nav-tabs {
 	width: 70%;
 	clear: both;
 }
-.modal-body:after {
+.modal-body > img:after {
 	clear: both;
 }
