@@ -270,7 +270,7 @@ ul.nav-tabs {
 	width: 70%;
 	clear: both;
 }
-.modal-body > p:after {
+.modal-body > p {
 	clear: both;
 }
 .modal-title {
