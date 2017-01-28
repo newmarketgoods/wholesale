@@ -261,3 +261,13 @@ ul.nav-tabs {
     text-decoration: none;
     background-color: #f4f9fe;
 }
+
+/*Modal STYLING*/
+.modal-body > img {
+  position: relative;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 50%;	
+}
+
