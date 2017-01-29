@@ -268,12 +268,12 @@ ul.nav-tabs {
 
 /*MODAL STYLING*/
 @media (max-width: 768px) {
-	.product-collection > .col-xs-6.col-sm-4:nth-child(2n) {
+	.product-collection > .col-xs-6.col-sm-4:nth-child(2n-1) {
 		clear: both;
 	}
 }
 @media (min-width: 768px) {
-	.product-collection > .col-xs-6.col-sm-4:nth-child(3n) {
+	.product-collection > .col-xs-6.col-sm-4:nth-child(3n-1) {
 	    clear: both;
 	}
 }
