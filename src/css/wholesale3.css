@@ -30,6 +30,9 @@ body {
 	.product-collection {
 		padding-top: 2em;
 	}
+	#product-section > .table-responsive {
+		margin-top: 1.75em;
+	}
 }
 
 .tab-button {
