@@ -275,6 +275,9 @@ a.modal-button:hover {
 	color: #111 !important; 
 	text-decoration: none !important; 
 }
+a.modal-button:hover {
+	opacity: 0.6;
+}
 .modal-body {
 	padding-right: 15px;
 }
