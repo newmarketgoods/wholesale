@@ -73,24 +73,17 @@ td > img, td > a > img {
 .table-product > tbody > tr > td:nth-child(1) {
 	width: 200px;
 }
-.table-product > tbody > tr > td:nth-child(1), .table > tbody > tr > th:nth-child(1) {
+/*.table-product > tbody > tr > td:nth-child(1),
+.table > tbody > tr > th:nth-child(1) {
 	padding-left: 0px;
-}
-
-
+}*/
 
 thead, #info-thead {
 	border-top: 4px solid black;
 	padding-top: .5em;
 	margin-top: .875em;
 }
-/*.section-title h2 {
-	font-size: 3em;
-	font-weight: 700;
-	padding: 1em 0 0.5em;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-}*/
+
 .product-title, .section-title {
 	font-size: 3em;
 	font-weight: 700;
