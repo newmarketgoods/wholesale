@@ -264,12 +264,12 @@ ul.nav-tabs {
 
 /*MODAL STYLING*/
 a.modal-button {
-	margin-bottom: 15px;
+	margin-bottom: 15px !important;
 }
 a.modal-button, 
 a.modal-button:hover {
-	color: #111; 
-	text-decoration: none; 
+	color: #111 !important; 
+	text-decoration: none !important; 
 }
 .modal-body {
 	padding: 15px;
