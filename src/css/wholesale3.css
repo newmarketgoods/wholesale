@@ -30,7 +30,7 @@ body {
 	.product-collection {
 		padding-top: 2em;
 	}
-	#product-section > .table-responsive {
+	.table-product {
 		margin-top: 1.75em;
 	}
 }
