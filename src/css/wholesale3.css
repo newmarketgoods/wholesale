@@ -263,6 +263,9 @@ ul.nav-tabs {
 }
 
 /*MODAL STYLING*/
+a.modal-button {
+	margin-bottom: 15px;
+}
 a.modal-button, 
 a.modal-button:hover {
 	color: #111; 
