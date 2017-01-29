@@ -290,6 +290,7 @@ a.modal-button:hover {
 	clear: both;
 }
 .modal-body > h3 {
+	margin-top: 0;
 	padding-top: 15px;
 }
 .modal-title {
