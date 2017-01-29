@@ -263,6 +263,10 @@ ul.nav-tabs {
 }
 
 /*MODAL STYLING*/
+a.modal-button:hover {
+	color: #111; 
+	text-decoration: none; 
+}
 .modal-body {
 	padding: 15px;
 }
