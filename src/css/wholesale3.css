@@ -27,6 +27,9 @@ body {
 	#policy-section {
 		padding: 0 4em 4em;
 	}
+	.product-collection {
+		padding-top: 2em;
+	}
 }
 
 .tab-button {
