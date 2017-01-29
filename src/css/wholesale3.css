@@ -290,7 +290,7 @@ a.modal-button:hover {
 	clear: both;
 }
 .modal-body > h3 {
-	margin-top: 0;
+	margin-top: 15px;
 }
 .modal-title {
 	letter-spacing: 1px;
