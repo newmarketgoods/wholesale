@@ -263,7 +263,7 @@ ul.nav-tabs {
 }
 
 /*MODAL STYLING*/
-a.modal-button {
+a.modal-button > h4 {
 	margin-bottom: 15px !important;
 }
 a.modal-button, 
@@ -283,6 +283,9 @@ a.modal-button:hover {
 }
 .modal-body > p:after {
 	clear: both;
+}
+.modal-body > h3 {
+	margin-top: 0;
 }
 .modal-title {
 	letter-spacing: 1px;
