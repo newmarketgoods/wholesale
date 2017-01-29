@@ -9,6 +9,9 @@ body {
 sup {
     top: -.25em;
 }
+h1, h2, h3 {
+	line-height: 1;
+}
 
 /*p {
 	font-size: 1.25em;
