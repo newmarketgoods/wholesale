@@ -273,7 +273,7 @@ ul.nav-tabs {
 	}
 }
 @media (min-width: 768px) {
-	.col-xs-6.col-sm-4:nth-child(3n) {
+	.col-xs-6.col-sm-4:nth-child(3n-1) {
 	    clear: both;
 	}
 }
