@@ -267,12 +267,13 @@ ul.nav-tabs {
 }
 
 /*MODAL STYLING*/
-
-.product-collection > .col-xs-6.col-sm-4:nth-child(2n) {
-    clear: both;
+@media (max-width: 768px) {
+	.product-collection > .col-xs-6.col-sm-4:nth-child(2n) {
+		clear: both;
+	}
 }
 @media (min-width: 768px) {
-	.product-collection > .col-xs-6.col-sm-4:nth-child(4n) {
+	.product-collection > .col-xs-6.col-sm-4:nth-child(3n) {
 	    clear: both;
 	}
 }
