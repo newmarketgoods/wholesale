@@ -268,7 +268,7 @@ ul.nav-tabs {
 
 /*MODAL STYLING*/
 @media (max-width: 768px) {
-	.product.col-xs-6.col-sm-4:nth-child(2n) {
+	.product.col-xs-6.col-sm-4:nth-child(2n+1) {
 		clear: both;
 	}
 }
