@@ -286,13 +286,9 @@ a.modal-button:hover {
 	color: #111 !important; 
 	text-decoration: none !important; 
 }
-a.modal-button img {
-	transition: opacity 0.3s;
-	opacity: 1;
-}
 a.modal-button img:hover,
 a.modal-button h4:hover {
-    opacity: 0.6;
+    opacity: 0.8;
     cursor: pointer;
 }
 .modal-body {
