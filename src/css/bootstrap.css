@@ -5979,7 +5979,7 @@ button.close {
 }
 .modal-header {
   min-height: 16.42857143px;
-  padding: 15px;
+  padding: 10px;
   border-bottom: 1px solid #e5e5e5;
 }
 .modal-header .close {
@@ -6017,7 +6017,7 @@ button.close {
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
+    width: 640px;
     margin: 30px auto;
   }
   .modal-content {
