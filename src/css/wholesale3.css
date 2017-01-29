@@ -184,6 +184,10 @@ td:nth-child(2) > .form-group > input {
 	letter-spacing: 1px;
 	width: 60px;
 }
+tr > th:first-child,
+tr > td:first-child {
+    padding-left: 0 !important;
+}
 
 
 /*BUTTON STYLING*/
