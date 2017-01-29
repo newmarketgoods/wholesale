@@ -277,6 +277,7 @@ a.modal-button:hover {
 }
 a.modal-button:hover {
 	opacity: 0.6;
+	cursor: auto;
 }
 .modal-body {
 	padding-right: 15px;
