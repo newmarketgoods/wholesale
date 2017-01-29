@@ -273,7 +273,7 @@ ul.nav-tabs {
 	    clear: both;
 	}
 }
-.product-collection > .col-xs-6.col-sm-4:nth-child(1n) {
+.product-collection > .col-xs-6.col-sm-4:nth-child(2n) {
     clear: both;
 }
 
