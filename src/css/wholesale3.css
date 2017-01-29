@@ -267,6 +267,13 @@ ul.nav-tabs {
 }
 
 /*MODAL STYLING*/
+
+@media (min-width: 768px) {
+	.product-collection > .col-xs-6.col-sm-4:nth-child(4n) {
+	    clear: both;
+	}
+}
+
 a.modal-button > h4 {
 	margin-bottom: 25px !important;
 }
