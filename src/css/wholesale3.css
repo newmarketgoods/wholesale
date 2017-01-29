@@ -273,6 +273,9 @@ ul.nav-tabs {
 	    clear: both;
 	}
 }
+.product-collection > .col-xs-6.col-sm-4:nth-child(1n) {
+    clear: both;
+}
 
 a.modal-button > h4 {
 	margin-bottom: 25px !important;
