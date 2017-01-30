@@ -17,9 +17,6 @@
 	<!-- Bootstrap core CSS -->
 	<link href="./src/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 	<link href="./src/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="print">
-	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-	<script src="./src/js/ie-emulation-modes-warning.js"></script>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -67,64 +64,7 @@
 		</div>
 	</div>
 
-	<div id="policy-section" class="row">
-		<div id="process" class="col-md-4">
-			<h3 class="product-title section-title">Process</h3>
-			<h4>Please review our policies. Purchase order requests can be placed using the linked form below, or directly on this page (please provide us with your resale license information).</h4>
-			<p>Submit forms to <a href="mailto:info+wholesale@newmarketgoods.com">info@newmarketgoods.com</a> and we'll follow-up to confirm details. If you have any questions, please don't hesitate to contact us!</p>
-			<button type="button" class="btn btn-primary"><a href="http://wholesale.newmarketgoods.com/src/doc/NMG_wholesale_order-request_2016.pdf" target="_blank">Order Form</a></button>
-		</div>
-
-		<div id="policies" class="col-md-5">
-			<h3 class="product-title section-title">Policies</h3>
-			<div class="">
-				<table class="table table-hover">
-					<!-- <thead>
-						<tr>
-							<th style="width:25%;">.</th>
-							<th>.</th>
-						</tr>
-					</thead> -->
-					<tbody>
-						<tr>
-							<td style="width:25%;border-top: 0px;"><strong>Order Minimum</strong></td>
-							<td style="border-top: 0px;">See specific products for minimum order quantities.</td>
-						</tr>
-						<!-- <tr>
-							<td><strong>Payment Terms</strong></td>
-							<td>50% upfront payment for opening orders, with remainder due upon delivery.</td>
-						</tr> -->
-						<tr>
-							<td><strong>Payment Method</strong></td>
-							<td>We can accept payments via credit card or PayPal.</td>
-						</tr>
-						<tr>
-							<td><strong>Shipping</strong></td>
-							<td>We can provide quotes for shipping based on the quantity and contents of your order request, as well as the ship-to location. We generally ship using FedEx or USPS.</td>
-						</tr>
-						<tr>
-							<td><strong>Returns</strong></td>
-							<td>We accept returns for defective or damaged items within 15 days of receipt of goods.</td>
-						</tr>
-						<tr>
-							<td><strong>Cancellation</strong></td>
-							<td>Orders cannot be cancelled once production has been initiated.</td>
-						</tr>
-						<!-- <tr>
-							<td><strong>Discounting</strong></td>
-							<td>Suggested discounting 20% after 5 weeks, and 50% after 7 weeks.</td>
-						</tr> -->
-					</tbody>
-				</table>
-			</div>
-		</div>
-
-		<div id="mission" class="col-md-3">
-			<h3 class="product-title section-title">About us</h3>
-			<h4>New Market Goods was formed with the goal of better understanding and highlighting positive production practices in Bangladesh.</h4>
-			<p>You can learn more about our team and mission on <a href="http://www.newmarketgoods.com/pages/about" target="_blank">newmarketgoods.com</a>.</p>
-		</div>
-	</div>
+	{% include policy_section.html %}
 
 </div>
 
