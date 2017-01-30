@@ -295,17 +295,33 @@ a.modal-button h4:hover {
     opacity: 0.8;
     cursor: pointer;
 }
-.modal-body {
-	padding-right: 15px;
+
+@media (min-width: 550px){
+	.modal-body {
+		padding-right: 15px;
+	}
+	.modal-body > img {
+		position: relative;
+		float: left;
+		padding-right: 15px;
+		width: 70%;
+		clear: both;
+	    border-bottom-left-radius: 6px;
+	}
 }
-.modal-body > img {
-	position: relative;
-	float: left;
-	padding-right: 15px;
-	width: 70%;
-	clear: both;
-    border-bottom-left-radius: 6px;
+
+@media (max-width: 550px){
+	.modal-body {
+		padding: 15px;
+	}
+	.modal-body > img {
+		position: relative;
+		padding-bottom: 15px;
+		width: 100%;
+		clear: both;
+	}
 }
+
 .modal-body > p:after {
 	clear: both;
 }
