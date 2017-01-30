@@ -13,6 +13,13 @@ h1, h2, h3 {
 	line-height: 1;
 }
 
+#page-title {
+    color: inherit;
+}
+#page-title:hover {
+    text-decoration: inherit;
+}
+
 img.img-flip {
         -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
