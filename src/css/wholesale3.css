@@ -333,6 +333,7 @@ a.modal-button h4:hover {
 }
 .modal-body h4:before {
 	color: #358df2;
+	font-family: "Circular Bold";
 	content: "\8627 ";
 }
 .modal-title {
