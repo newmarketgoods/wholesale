@@ -333,7 +333,7 @@ a.modal-button h4:hover {
 }
 .modal-body h4::before {
 	color: #358df2;
-	content: "\08627 ";
+	content: "↳ ";
 }
 .modal-title {
 	letter-spacing: 1px;
