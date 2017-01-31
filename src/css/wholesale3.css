@@ -313,7 +313,6 @@ a.modal-button h4:hover {
 	    border-bottom-left-radius: 6px;
 	}
 }
-
 @media (max-width: 550px){
 	.modal-body {
 		padding: 15px;
@@ -324,10 +323,6 @@ a.modal-button h4:hover {
 		width: 100%;
 		clear: both;
 	}
-}
-
-.modal-body {
-	padding: 0;
 }
 .modal-body > p:after {
 	clear: both;
