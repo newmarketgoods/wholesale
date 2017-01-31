@@ -231,9 +231,6 @@ td:nth-child(2) > .form-group > input {
 	padding: 0 !important;
 	border: 0;
 }
-.modal-body {
-	padding: 0;
-}
 
 ul.nav-tabs {
 	margin-bottom: 2em;
@@ -329,6 +326,9 @@ a.modal-button h4:hover {
 	}
 }
 
+.modal-body {
+	padding: 0;
+}
 .modal-body > p:after {
 	clear: both;
 }
@@ -336,6 +336,10 @@ a.modal-button h4:hover {
 	margin-top: 0;
 	padding-top: 15px;
 }
+/*.modal-body > h4:before {
+	color: #358df2;
+	content: "&#8627; ";
+}*/
 .modal-title {
 	letter-spacing: 1px;
 }
