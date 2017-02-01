@@ -30,8 +30,13 @@ img.img-flip {
 }
 
 img#pin-svg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
 	width: 40px;
 	height: 40px;
+	margin-top: -20px; /* Half the height */
+	margin-left: -20px;
 	background-color: #111;
 	border-radius: 20px;
 }
