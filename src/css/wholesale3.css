@@ -39,12 +39,12 @@ img.img-flip {
 	left: 50%;
 }
 #pin-svg {
-	width: 40px;
-	height: 40px;
-	margin-top: -20px;
-	margin-left: -20px;
+	width: 60px;
+	height: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
 	background-color: #f8f8f8;
-	border-radius: 20px;
+	border-radius: 30px;
 }
 #pin-svg img {
 	width: 30px;
