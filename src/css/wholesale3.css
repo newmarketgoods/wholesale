@@ -29,6 +29,13 @@ img.img-flip {
         -ms-filter: "FlipH";
 }
 
+img#pin-svg {
+	width: 40px;
+	height: 40px;
+	background-color: #111;
+	border-radius: 20px;
+}
+
 @media (max-width: 550px){
 	.nav > li:nth-child(3) {
 		clear: both;
