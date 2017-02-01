@@ -32,13 +32,16 @@ img.img-flip {
 .pin-box {
     margin: 8em 0;
 }
-#pin-svg {
+#pin-svg,
+#pin-svg img {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+}
+#pin-svg {
 	width: 40px;
 	height: 40px;
-	margin-top: -20px; /* Half the height */
+	margin-top: -20px;
 	margin-left: -20px;
 	background-color: #f8f8f8;
 	border-radius: 20px;
@@ -46,6 +49,8 @@ img.img-flip {
 #pin-svg img {
 	width: 30px;
 	height: 30px;
+	margin-top: -15px;
+	margin-left: -15px;
 }
 
 @media (max-width: 550px){
