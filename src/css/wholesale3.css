@@ -326,7 +326,7 @@ a.modal-button h4:hover {
 
 @media (min-width: 550px){
 	.modal-body {
-		padding-right: 15px;
+		padding: 0 15px 0 0;
 	}
 	.modal-body > img {
 		position: relative;
