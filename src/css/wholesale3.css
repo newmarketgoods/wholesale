@@ -29,6 +29,9 @@ img.img-flip {
         -ms-filter: "FlipH";
 }
 
+.pin-box {
+    margin: 8em 0;
+}
 #pin-svg {
 	position: absolute;
 	top: 50%;
@@ -37,8 +40,12 @@ img.img-flip {
 	height: 40px;
 	margin-top: -20px; /* Half the height */
 	margin-left: -20px;
-	background-color: #111;
+	background-color: #f8f8f8;
 	border-radius: 20px;
+}
+#pin-svg img {
+	width: 30px;
+	height: 30px;
 }
 
 @media (max-width: 550px){
