@@ -1,0 +1,151 @@
+<div role="tabpanel" class="tab-pane fade" id="Bags">
+	<div class="row">
+		<div class="col-md-4">
+			<h3 class="product-title">Accessories</h3>
+			<h4>Neckties</h4>
+			<p>Your go-to bag can never be too big. Perfect for beach balls, picnic blankets, and dainty dogs. Sturdy, un-dyed cotton-canvas with a leather handle.</p>
+			<div class="table-responsive table-product">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>Styles</th>
+							<th></th>
+							<th><a href="#" data-toggle="tooltip" title="Wholesale Price">WSP</a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Neckties</td>
+							<td>2.5" width</td>
+							<td><sup>$</sup>32<sup>.50</sup></td>
+						</tr>
+						<tr>
+							<td>Neckties</td>
+							<td>2" width</td>
+							<td><sup>$</sup>32<sup>.50</sup></td>
+						</tr>
+					</thead>
+				</table>
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th><a href="#" data-toggle="tooltip" title="Minimum quantity of a given style required for wholesale order (can combine sizes)">Min Qty</a></th>
+							<th><a href="#" data-toggle="tooltip" title="Estimated production time required after an order is confirmed">Lead Time</a></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>3 / style</td>
+							<td>4-6 Weeks</td>
+						</tr>
+					</thead>
+				</table>
+			</div>
+		</div>
+		<div class="col-md-8">
+			<div class="product-collection row">
+
+				<div class="product col-xs-6 col-sm-4">
+					<a class="modal-button" data-toggle="modal" data-target="#ZZOTIE">
+						<img class="img-responsive" src="./src/img/bags/ZZOTIE.jpg"/>
+						<h4>Bhasa Necktie</h4>
+					</a>
+					<div class="modal fade" id="ZZOTIE" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&#10005;</span></button>
+									<h5 class="modal-title" id="myModalLabel">ZZOTIE</h5>
+								</div>
+								<div class="modal-body">
+									<img class="img-responsive" src="./src/img/accs/ZZOTIE.jpg"/>
+									<h3>Bhasa Necktie</h3>
+									<p>Made with upcycled fabric from our shirting production. Vintage cut, modernized with dobby zig-zag stripe detailing.</p>
+									<p>Lined with silk</p>
+									<p>Width — 2.5"</p>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="product col-xs-6 col-sm-4">
+					<a class="modal-button" data-toggle="modal" data-target="#BHATIE">
+						<img class="img-responsive" src="./src/img/bags/BHATIE.jpg"/>
+						<h4>Bhasa Necktie</h4>
+					</a>
+					<div class="modal fade" id="BHATIE" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&#10005;</span></button>
+									<h5 class="modal-title" id="myModalLabel">BHATIE</h5>
+								</div>
+								<div class="modal-body">
+									<img class="img-responsive" src="./src/img/accs/BHATIE.jpg"/>
+									<h3>Bhasa Necktie</h3>
+									<p>Made with upcycled fabric from our shirting production. Vintage cut, modernized with dobby dot stripe detailing.</p>
+									<p>Lined with silk</p>
+									<p>Width — 2.5"</p>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="product col-xs-6 col-sm-4">
+					<a class="modal-button" data-toggle="modal" data-target="#NATBEL">
+						<img class="img-responsive" src="./src/img/bags/NATBEL.jpg"/>
+						<h4>Natural Leather Belt</h4>
+					</a>
+					<div class="modal fade" id="NATBEL" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&#10005;</span></button>
+									<h5 class="modal-title" id="myModalLabel">NATBEL</h5>
+								</div>
+								<div class="modal-body">
+									<img class="img-responsive" src="./src/img/accs/NATBEL.jpg"/>
+									<h3>Natural Leather Belt</h3>
+									<p>Our vegetable-tanned leather belt boasts a beautiful a clean edge and asymmetrical end shape. Designed in Atlanta by David Kennedy.</p>
+									<p>Solid brass hardware</p>
+									<p>Width — 1-3/16"</p>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="product col-xs-6 col-sm-4">
+					<a class="modal-button" data-toggle="modal" data-target="#CASBEL">
+						<img class="img-responsive" src="./src/img/bags/CASBEL.jpg"/>
+						<h4>Castor-oiled Leather Belt</h4>
+					</a>
+					<div class="modal fade" id="CASBEL" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&#10005;</span></button>
+									<h5 class="modal-title" id="myModalLabel">CASBEL</h5>
+								</div>
+								<div class="modal-body">
+									<img class="img-responsive" src="./src/img/accs/CASBEL.jpg"/>
+									<h3>Castor-oiled Leather Belt</h3>
+									<p>Our raw-burnished leather belt boasts a beautiful a stitched edge and asymmetrical end shape.</p>
+									<p>Solid brass hardware</p>
+									<p>Width — 1-3/16"</p>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
