@@ -1,67 +1,91 @@
-/*body {
-		border-top: 12px solid #ffc600;
-}*/
-
-body, html {
-	margin: 0;
-	/*overflow: hidden;
-	height:100%;*/
+body {
+	padding-bottom: 6em;
 }
 
-@media (max-width: 768px){
-	body, html {
-		/*overflow: scroll;
-		height:100%;*/
+@font-face {
+  font-family: 'Circular Bold';
+  src: url('https://cdn.shopify.com/s/files/1/0996/3444/t/9/assets/lineto-circular-bold.eot') format('eot'), url('https://cdn.shopify.com/s/files/1/0996/3444/t/9/assets/lineto-circular-bold.woff') format('woff'), url('https://cdn.shopify.com/s/files/1/0996/3444/t/9/assets/lineto-circular-bold.ttf') format('truetype');
+}
+sup {
+    top: -.25em;
+}
+h1, h2, h3 {
+	line-height: 1;
+}
+
+#page-title {
+    color: inherit;
+}
+#page-title:hover {
+    text-decoration: inherit;
+}
+
+img.img-flip {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+.pin-box {
+    margin: 8em 0;
+}
+#pin-svg,
+#pin-svg img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+#pin-svg {
+	width: 60px;
+	height: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	background-color: #f8f8f8;
+	border-radius: 30px;
+}
+#pin-svg img {
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	margin-left: -15px;
+}
+
+@media (max-width: 550px){
+	.nav > li:nth-child(3) {
+		clear: both;
 	}
 }
 
 @media (min-width: 768px){
-
-	body, html {
-		overflow: hidden;
-		height:100%;
+	#intro-wholesale {
+		padding-left: 5em;
+		padding-right: 5em;
 	}
-	#left {
-		position: absolute;
-		top: 0px;
-		bottom: 0;
-		left: 0;
-		width: 65%;
-		height:100%;
-		overflow-y: scroll;
+	#product-section,
+	#policy-section {
+		padding: 0 4em 4em;
 	}
-
-	#right {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		right: 0;
-		width: 35%;
-		height:100%;
-		overflow-y: scroll;
+	.product-collection {
+		padding-top: 2em;
+	}
+	.table-product {
+		margin-top: 1.75em;
 	}
 }
 
-#left, #right {
-	border-top: 10px solid #ffc600;
-	padding: 0 0 4em;
-}
-
-#left {
-	/*height:100%;*/
-	/*background-color: #f1f1f1;*/
-}
-
-#right {
-	/*height:100%;*/
-	background-color: #f4f9fe;
+.tab-button {
+	background-color: #ffc600;
 }
 
 .primary-header {
-  background: #358df2;
-  color: white;
-  padding-top: 2em;
-  margin-bottom: 2em;
+	border-top: 10px solid #157bf0;
+	background: #358df2;
+	color: white;
+	padding: 2em;
+	margin-bottom: 2em;
 }
 
 #intro-linesheet h1, #intro-wholesale h1 {
@@ -84,24 +108,17 @@ td > img, td > a > img {
 .table-product > tbody > tr > td:nth-child(1) {
 	width: 200px;
 }
-.table-product > tbody > tr > td:nth-child(1), .table > tbody > tr > th:nth-child(1) {
+/*.table-product > tbody > tr > td:nth-child(1),
+.table > tbody > tr > th:nth-child(1) {
 	padding-left: 0px;
-}
-
-
+}*/
 
 thead, #info-thead {
 	border-top: 4px solid black;
 	padding-top: .5em;
 	margin-top: .875em;
 }
-/*.section-title h2 {
-	font-size: 3em;
-	font-weight: 700;
-	padding: 1em 0 0.5em;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-}*/
+
 .product-title, .section-title {
 	font-size: 3em;
 	font-weight: 700;
@@ -238,9 +255,6 @@ td:nth-child(2) > .form-group > input {
 	padding: 0 !important;
 	border: 0;
 }
-.modal-body {
-	padding: 0;
-}
 
 ul.nav-tabs {
 	margin-bottom: 2em;
@@ -280,6 +294,71 @@ ul.nav-tabs {
 	font-weight: 600;
 }
 .nav > li > a:hover, .nav > li > a:focus {
-    text-decoration: none;
-    background-color: #f4f9fe;
+	text-decoration: none;
+	background-color: #f4f9fe;
+}
+
+/*MODAL STYLING*/
+@media (max-width: 768px) {
+	.product.col-xs-6.col-sm-4:nth-child(2n+1) {
+		clear: both;
+	}
+}
+@media (min-width: 768px) {
+	.product.col-xs-6.col-sm-4:nth-child(3n+1) {
+	    clear: both;
+	}
+}
+
+a.modal-button > h4 {
+	margin-bottom: 25px !important;
+}
+a.modal-button, 
+a.modal-button:hover {
+	color: #111 !important; 
+	text-decoration: none !important; 
+}
+a.modal-button img:hover,
+a.modal-button h4:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media (min-width: 550px){
+	.modal-body {
+		padding: 0 15px 0 0;
+	}
+	.modal-body > img {
+		position: relative;
+		float: left;
+		padding-right: 15px;
+		width: 70%;
+		clear: both;
+	    border-bottom-left-radius: 6px;
+	}
+}
+@media (max-width: 550px){
+	.modal-body {
+		padding: 15px;
+	}
+	.modal-body > img {
+		position: relative;
+		padding-bottom: 15px;
+		width: 100%;
+		clear: both;
+	}
+}
+.modal-body > p:after {
+	clear: both;
+}
+.modal-body > h3 {
+	margin-top: 0;
+	padding-top: 15px;
+}
+.modal-body h4::before {
+	color: #358df2;
+	content: "↳ ";
+}
+.modal-title {
+	letter-spacing: 1px;
 }
